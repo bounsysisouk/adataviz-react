@@ -5,7 +5,7 @@ import Cartes from './components/Cartes'
 import Entete from './components/Entete'
 
 function App() {
-    const [count, setCount] = useState(0)
+    
 
         return (
         <>

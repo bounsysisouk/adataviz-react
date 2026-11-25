@@ -74,6 +74,8 @@ export const formaterDonnee = (item) => {
         commune: item.commune ?? "Commune non renseignée",
         codePostal: item.code_postal ?? "Non renseigné",
         adresseEmail: item.mail ?? "Email non renseigné",
+        telephone: item.telephone ?? "Téléphone non renseigné",
+        lien: item.lien ?? "",
         services: extraireServices(item)
     };
 };

@@ -3,7 +3,7 @@ function Entete () {
         <>
         <header>
             <h1>
-                Les volocistes de Nantes Metropole
+                Les vélocistes de Nantes Metropole
             </h1>
             <p>Retrouver les professionnels du vélo près de chez vous.</p>
         </header>

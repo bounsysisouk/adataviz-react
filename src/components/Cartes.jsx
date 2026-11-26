@@ -24,7 +24,8 @@ function Cartes ({
             <p>{adresse}, {codePostal}, {commune}</p>
             <p>{adresseEmail}</p>
 
-    {/* EXO 3 : le texte dit ce qu'il va faire */} 
+            {/* EXO 3 : le texte dit ce qu'il va faire */} 
+
             <button onClick={ouvrirCarte}aria-expanded={ouvert}>
                 {ouvert ? "Masquer les details" : "Voir les details"}
             </button>

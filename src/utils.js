@@ -1,9 +1,9 @@
-// RECHERCHE PAR NOM
+// RECHERCHE PAR NOM (accepte les donnees brutes ou Formater)
 
 export const filtrerParNom = (velocistes, recherche) => {
     return velocistes.filter((velociste) => {
-        return velociste.nom_enseigne != null &&
-            velociste.nom_enseigne.trim().toLowerCase().includes(recherche.trim().toLowerCase());
+        const nom = velociste.nom_enseigne ?? velociste.nomEnseigne ?? "";
+           return nom.trim().toLowerCase().includes(recherche.trim().toLowerCase());
     });
 };
 
